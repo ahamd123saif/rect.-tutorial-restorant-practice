@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./style.css"
 import Menu from "./menuapi";
 import MenuCard from "./menuCard";
+import Login from "./header";
 
 export const Resturent = () =>{
   const [menuData,setMenuData] =useState(Menu);
@@ -28,6 +29,7 @@ export const Resturent = () =>{
       </div>
     </nav>
     <MenuCard menuData ={menuData}/>
+    <Login/>
     </>
   )
 }

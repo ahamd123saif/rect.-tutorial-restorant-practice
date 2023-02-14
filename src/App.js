@@ -1,8 +1,11 @@
 import React from 'react';
 import Resturent from './componenent/Resturent';
 export const app = () => {
-  return <>
+  return ( <>
+  
   <Resturent/>
+  
   </>
+  )
 }
 export default app;
